@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
         try {
             Contato contato = new Contato();
-            contato.setId(Long.parseLong("2"));
-            contato.setNome("Raimundo");
+            contato.setId(Long.parseLong("1"));
+            contato.setNome("José Osmar Martins Silva");
 
             ContatoBO bo = new ContatoBO(new ContatoDAO());
             bo.adiciona(contato);
