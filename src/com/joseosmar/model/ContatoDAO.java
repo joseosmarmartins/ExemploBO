@@ -9,7 +9,7 @@ public class ContatoDAO {
 	private Connection connection;
 
 	public ContatoDAO() {
-		this.connection = (Connection) new ConnectionFactory().getConnection();
+		this.connection = new ConnectionFactory().getConnection();
 	}
 
 	public void adiciona(Contato contato) {
